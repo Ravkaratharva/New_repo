@@ -1,6 +1,7 @@
 # Making a simple calculator 
 
 import math
+import numpy as np
 
 def add(a, b): return a + b
 def sub(a, b): return a - b
@@ -69,3 +70,4 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
+    print("ANS")
